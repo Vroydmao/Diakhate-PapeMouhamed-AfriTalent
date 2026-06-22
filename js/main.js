@@ -282,7 +282,7 @@ if (contactForm) {
 
         if (allValid) {
             // Formulaire valide : cache le formulaire et affiche le message de succès
-            contactForm.style.display = 'none';
+            contactForm.style.display =    'none';
             const successMsg = document.getElementById('successMessage');
             if (successMsg) {
                 successMsg.style.display = 'block';
