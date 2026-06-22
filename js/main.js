@@ -223,7 +223,7 @@ if (contactForm) {
             field.classList.remove('is-invalid');
             field.classList.add('is-valid');
             errorDiv.textContent = '';
-            return true;
+            return    true;
         }
     }
 
@@ -274,7 +274,7 @@ if (contactForm) {
 
         // Valide tous les champs et collecte les résultats
         const results = Object.keys(validations).map(fieldId => {
-            return validateField(fieldId, fieldId + 'Error', validations[fieldId]);
+              return validateField(fieldId, fieldId + 'Error', validations[fieldId]);
         });
 
         // Vérifie si tous les champs sont valides
